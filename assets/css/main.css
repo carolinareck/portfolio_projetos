@@ -1213,13 +1213,13 @@ input[type="radio"] + label:before {
 
 /* Image */
 .image {
-  border-radius: 0.375em;
-  border: 0;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  max-width:400px;
-  height:auto}
+  border-radius: 0.375em;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height:auto
+}
   .image img {
     border-radius: 0.375em;
     display: block; }
@@ -2275,4 +2275,5 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
