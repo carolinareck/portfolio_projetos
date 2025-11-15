@@ -2114,12 +2114,13 @@ button,
 
 /* Banner */
 #banner {
-  padding: 6em 0 4em 0 ;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex; 
-align-items: stretch;}
+	padding: 6em 0 4em 0;
+	display: -moz-flex;
+	display: -webkit-flex;
+	-ms-flex: 1;
+	display: flex;
+	align-items: stretch; 
+}
   #banner h1 {
     margin-top: -0.125em; }
   #banner .content {
@@ -2132,18 +2133,19 @@ align-items: stretch;}
     -ms-flex-shrink: 1;
     flex-shrink: 1;
     width: 50%; }
-  #banner .image {
-    -moz-flex-grow: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-grow: 0;
-    flex-grow: 0;
-    -moz-flex-shrink: 0;
-    -webkit-flex-shrink: 0;
-    -ms-flex-shrink: 0;
-    flex-shrink: 0;
-    display: block;
-    margin: 0 0 0 4em;
-    width: 50%; }
+ #banner .image {
+	-moz-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-grow: 0;
+	flex-grow: 0;
+	-moz-flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-shrink: 0;
+	flex-shrink: 0;
+	display: block;
+	margin: 0 0 0 4em; 
+	width: 50%;
+}
     #banner .image img {
   height: 100%;
   -moz-object-fit: cover;
@@ -2277,6 +2279,7 @@ align-items: stretch;}
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
